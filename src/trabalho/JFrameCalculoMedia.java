@@ -44,7 +44,8 @@ public class JFrameCalculoMedia extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         txtMedia = new javax.swing.JTextField();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        getContentPane().setLayout(new java.awt.BorderLayout());
 
         jPanel1.setLayout(new java.awt.GridBagLayout());
 

@@ -38,7 +38,8 @@ public class Fatorial extends javax.swing.JFrame {
         jLabelresultado = new javax.swing.JLabel();
         jTextFieldresultado = new javax.swing.JTextField();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        getContentPane().setLayout(new java.awt.BorderLayout());
 
         lblcalc.setLayout(new java.awt.GridBagLayout());
 
